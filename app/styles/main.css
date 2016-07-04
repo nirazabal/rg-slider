@@ -1,0 +1,111 @@
+/* DON'T REMOVE THIS STYLE */
+.rg-tracker {
+    position: relative;
+}
+.rg-tracker-number {
+    position: relative;
+    display:inline-block;
+}
+.rg-slider-wrapper {
+    width: 100%;
+    position: relative;
+}
+.rg-slider-trackbar {
+    background: lightgrey;
+    border-radius: 15px;
+}
+
+.rg-tracker {
+    width: 20px;
+    height: 20px;
+    background: deeppink;
+    border-radius: inherit;
+}
+
+.rg-navigator {
+    width: 100%;
+    float: left;
+}
+.rg-navigator ul li {
+    display: table-cell;
+    text-align: left;
+    width: 1%;
+}
+.rg-navigator ul {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.rg-list-lastitem {
+    float: right;
+}
+
+.rg-tracker-number.outer {
+    display: block;
+    position: relative;
+    width: 1em;
+}
+.rg-tracker-number .inner {
+    /* shrink-to-fit width */
+    display: inline-block;
+    position: relative;
+    /* shift left edge of text to center */
+    left: 50%;
+}
+.rg-tracker-number .text {
+    /* shift left edge of text half distance to left */
+    margin-left: -50%;
+    /* text should all be on one line */
+    white-space: nowrap;
+}
+
+/* DON'T REMOVE THIS STYLE */
+.color-bar{
+    position: absolute;
+    height: 10px;
+}
+.color-bar.green-bar{
+    background-color: green;
+}
+.color-bar.red-bar{
+    background-color: red;
+}
+.color-bar.yellow-bar{
+    background-color: yellow;
+}
+.rg-trackbar-trail{
+    position: absolute;
+    height: 10px;
+    background-color: blue;
+}
+
+.marker{
+    /*position: absolute;*/
+}
+.marker.outer {
+    display: block;
+    position: relative;
+    width: 1em;
+}
+.marker .inner {
+    /* shrink-to-fit width */
+    display: inline-block;
+    position: relative;
+    /* shift left edge of text to center */
+    left: 50%;
+}
+.marker .text {
+    /* shift left edge of text half distance to left */
+    margin-left: -50%;
+    /* text should all be on one line */
+    white-space: nowrap;
+    background-color: rgba(255,255,255,0.7);
+    margin-top: 5px;
+}
+.marker-line{
+    position: absolute;
+    width: 2px;
+    height: 20px;
+    background-color: black;
+}
